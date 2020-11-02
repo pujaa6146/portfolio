@@ -10,40 +10,39 @@ h1 {
 }
 h2{
 	font-family: 'IM Fell Double Pica SC';
+	margin: revert;
+	font-weight: bold;
+
 }
 h5{
 	font-family: 'IM Fell Double Pica SC';
+	font-weight: bold;
 }
 body {
     font-family: 'GFS Didot';
     font-size: 18px;
     overflow-x: hidden;
-    
+  
 }
 a{
 	font-family: 'Cormorant Garamond';
 	font-size: 20px;
 	font-style: oblique;
-	color:#000000;
+	/*color:#000000;*/
 	text-transform: uppercase;
 
 }
 body{
     background-color: #cbf6db;
     background-image: url("https://i.pinimg.com/originals/e2/71/fd/e271fda72f1e158b5f0569cc72d36d7f.jpg");
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/e2/71/fd/e271fda72f1e158b5f0569cc72d36d7f.jpg");       */
     background-repeat: no-repeat;
     background-size: cover;
 }
-.nav-item{
-	/*height: 110px;*/
-
-	/*line-height: 80px;*/
-	
+.carousel-caption h4 p {
+    color:red !important;
 }
-.nav-link:hover{
-	background-color: #87ceeb;
-	color:#FA8072;
+.social-links{
+	color: #000000;
 }
 #social-container{
 	margin:0 45%;
@@ -71,6 +70,12 @@ color: #004d40;
 .navbar-light {
 	display: inline-block;
 	width: 100%;
+}
+
+/* Change the link color on hover */
+ul li a:hover {
+  background-color:#FFB6C1;
+  /*color: white;*/
 }
 
 
